@@ -1,4 +1,4 @@
-# Assignment Three
+# Assignment three and four
 ## Purpose
 The purpose of this assignment is to get comfortable working with a NoSQL database (MongoDB). 
 
@@ -70,6 +70,17 @@ Create a collection in MongoDB to hold information about movies
 - https://www.mongodb.com/cloud/atlas
 - Create a Free Subscription *Amazon
 - https://render.com/docs/deploy-create-react-app **important: Environment Variable for https://github.com/AliceNN-ucdenver/CSC3916_REACT env.REACT_APP_API_URL, this weekend I will look at changes (I believe only 1 change in the actions)
+
+## New Features (Assignment 4)
+New Features (Assignment 4)
+
+- POST /reviews to create a review
+- GET /movies/:id?reviews=true to retrieve movie with reviews
+- Aggregation using MongoDB $lookup
+- Error handling for:
+  - Invalid movie ID
+  - Movie not found
+- Postman tests for all new routes
 
 ## Links
 Backend GitHub Repo: https://github.com/yanethles/CSC3916_Assignment3
